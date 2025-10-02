@@ -37,22 +37,40 @@ A modern React-based project utilizing the latest frontend technologies and tool
 
 ## 📁 Project Structure
 
-```
-react_app/
-├── public/             # Static assets
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page components
-│   ├── styles/         # Global styles and Tailwind configuration
-│   ├── App.jsx         # Main application component
-│   ├── Routes.jsx      # Application routes
-│   └── index.jsx       # Application entry point
-├── .env                # Environment variables
-├── index.html          # HTML template
-├── package.json        # Project dependencies and scripts
-├── tailwind.config.js  # Tailwind CSS configuration
-└── vite.config.js      # Vite configuration
-```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # Basic UI components (buttons, inputs, etc.)
+│   ├── layout/          # Layout components (header, footer, sidebar)
+│   └── shared/          # Shared components used across features
+├── context/             # React context providers
+│   ├── AuthContext.jsx  # Authentication state
+│   └── UiContext.jsx    # UI state (theme, modals, etc.)
+├── hooks/               # Custom React hooks
+├── pages/               # Page components
+│   ├── auth/            # Authentication pages
+│   │   ├── Login.jsx
+│   │   └── Signup.jsx
+│   ├── claim-verification/  # Claim verification feature
+│   │   ├── components/
+│   │   │   └── VerificationMapView.jsx
+│   │   └── index.jsx
+│   ├── multi-role-dashboard/ # Dashboard components
+│   │   ├── components/
+│   │   │   └── RecentActivityFeed.jsx
+│   │   └── index.jsx
+│   └── ...              # Other feature pages
+├── redux/               # Redux store configuration
+│   ├── slices/          # Redux slices
+│   ├── store.js         # Redux store
+│   └── api.js           # API service configuration
+├── services/            # API services
+├── styles/              # Global styles
+│   ├── tailwind.css     # Tailwind directives
+│   └── index.css        # Custom styles
+├── utils/               # Utility functions
+├── App.jsx              # Root component
+├── index.jsx            # Entry point
+└── Routes.jsx           # Application routing
 
 ## 🧩 Adding Routes
 

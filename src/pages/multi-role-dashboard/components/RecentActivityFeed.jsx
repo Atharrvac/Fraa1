@@ -212,7 +212,7 @@ const RecentActivityFeed = ({ userRole = 'Field Officer' }) => {
     <div className="bg-card border border-border rounded-lg overflow-hidden elevation-1">
       <div className="px-4 py-3 border-b border-border bg-primary text-primary-foreground">
         <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-semibold text-foreground">Recent Activity</h3>
+          <h3 className="">Recent Activity</h3>
           <Button variant="outline" size="sm" className="border-white text-white hover:bg-white/10" iconName="RefreshCw">
             Refresh
           </Button>

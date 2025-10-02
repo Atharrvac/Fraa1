@@ -177,7 +177,7 @@ const NotificationPanel = ({ userRole = 'Field Officer' }) => {
     <div className="bg-card border border-border rounded-lg overflow-hidden elevation-1">
       <div className="px-4 py-3 border-b border-border bg-primary text-primary-foreground">
         <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-semibold text-foreground">Notifications</h3>
+          <h3 className="">Notifications</h3>
           <div className="flex items-center space-x-2">
             {unreadCount > 0 && (
               <span className="px-2 py-1 bg-accent text-accent-foreground text-xs font-medium rounded-full">

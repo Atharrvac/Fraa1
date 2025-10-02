@@ -74,7 +74,7 @@ const MapPreview = ({ userRole = 'Field Officer' }) => {
       <div className="px-4 py-3 border-b border-border bg-primary text-primary-foreground">
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h3 className="text-lg font-semibold text-foreground">Map Overview</h3>
+            <h3 className="">Map Overview</h3>
             <p className="text-sm text-muted-foreground">{currentData?.region}</p>
           </div>
           <Button
