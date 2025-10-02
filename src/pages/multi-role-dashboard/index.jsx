@@ -136,7 +136,7 @@ const MultiRoleDashboard = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0">
             <div className="flex-1">
               <div className="flex items-center space-x-4">
-                <img src="public/Government_of_India_logo.svg.png" alt="Government of India Emblem" className="w-16 h-16" />
+                <img src="https://i.ibb.co/FLW9FQS7/Government-of-India-logo-svg.png" />
                 <div>
                   <h1 className="text-2xl font-bold text-foreground">
                     {greeting?.greeting}, {displayName}
