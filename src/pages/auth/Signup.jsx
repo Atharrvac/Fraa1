@@ -72,7 +72,7 @@ export default function Signup() {
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/public/Government_of_India_logo.svg.png" 
+              src="https://i.ibb.co/FLW9FQS7/Government-of-India-logo-svg.png" 
               alt="National Emblem" 
               className="h-16 w-auto"
             />
