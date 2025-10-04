@@ -294,7 +294,7 @@ function RightControls() {
       >
         <option value="en">English</option>
         <option value="hi">हिंदी</option>
-        <option value="hi">हिंदी</option>
+        <option value="hi">मराठी</option>
       </select>
     </div>
   );
