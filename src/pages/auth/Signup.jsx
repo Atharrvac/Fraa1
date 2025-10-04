@@ -5,7 +5,7 @@ import Button from '../../components/ui/Button';
 import { getDashboardPathByRole } from '../../utils/roleRouting';
 
 const ROLE_OPTIONS = [
-  { value: 'Field Officer', label: 'Field Officer' },
+  { value: 'Field Officer', label: 'Forest Officer' },
   { value: 'Committee Member', label: 'Collector' },
   { value: 'Administrator', label: 'Sarpanch' },
   { value: 'Public Viewer', label: 'Patta holder' },
