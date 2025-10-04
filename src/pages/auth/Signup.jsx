@@ -9,7 +9,7 @@ const ROLE_OPTIONS = [
   { value: 'Committee Member', label: 'Collector' },
   { value: 'Administrator', label: 'Sarpanch' },
   { value: 'Public Viewer', label: 'Patta holder' },
-  { value: 'Public Viewer', label: 'Patta holder' }
+  { value: 'Public Viewer', label: 'NGOs' }
   
 ];
 
